@@ -234,6 +234,7 @@ nav ul li a:hover {
   }
   .wave {
     width: 400%;
+      bottom: 0;
   }
 }
 
@@ -243,6 +244,7 @@ nav ul li a:hover {
   }
   .wave {
     width: 500%;
+      bottm: 0;
   }
 }
 
@@ -756,11 +758,13 @@ nav ul li a:hover {
   transition: background-color 0.16s;
   display: inline-block;
 }
+.whatsapp-btn img { height: 20px; }
 .whatsapp-btn:hover { background: #128C7E; }
 
 @media (max-width:1024px){
   .contact-details {
     text-align: center;
+      padding: 0 5px;
   }
   .contact-grid { 
     flex-direction: column; 
@@ -805,4 +809,5 @@ footer {
     opacity: 1;
     transform: translateY(0);
   }
+
 }
