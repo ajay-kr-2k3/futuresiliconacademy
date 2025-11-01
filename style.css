@@ -18,7 +18,7 @@ header {
 }
   
 .logo img {
-    height: 6rem;
+    height: 7rem;
     margin-left: 100px;
 }
   
@@ -67,6 +67,25 @@ nav ul li a:hover {
   animation: fadeIn 1.5s ease forwards;
 }
 
+.hero-logos {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.hero-logos img {
+  height: 70px;
+  width: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+  background: #fff;
+  padding: 2px;
+  transition: transform 0.25s ease;
+}
+
 .hero-content {
   flex: none;
   min-width: 310px;
@@ -91,10 +110,13 @@ nav ul li a:hover {
 .mission-text {
   font-size: 18px;
   line-height: 1.6;
-  color: #f0f0f0;
   text-align: center;
   margin-bottom: 20px;
   overflow: visible;
+}
+.mission-text strong {
+  color: #f0f1f2;
+  font-style: italic;
 }
 
 .cta-buttons {
@@ -234,7 +256,6 @@ nav ul li a:hover {
   }
   .wave {
     width: 400%;
-      bottom: 0;
   }
 }
 
@@ -244,7 +265,6 @@ nav ul li a:hover {
   }
   .wave {
     width: 500%;
-      bottm: 0;
   }
 }
 
@@ -292,6 +312,14 @@ nav ul li a:hover {
     min-width: 200px;
     max-width: 99vw;
     padding: 10px;
+  }
+  .hero-logos {
+    top: 18px;
+    right: 18px;
+    gap: 10px;
+  }
+  .hero-logos img {
+    height: 55px;
   }
   .hero-content h1 {
     font-size: 2rem;
@@ -667,7 +695,6 @@ nav ul li a:hover {
   }
 }
 
-/* Enquiry Form */
 .contact-section {
   background: #f7fafd;
   padding: 50px 0;
@@ -758,13 +785,17 @@ nav ul li a:hover {
   transition: background-color 0.16s;
   display: inline-block;
 }
-.whatsapp-btn img { height: 20px; }
+.whatsapp-btn img {
+  height:32px;
+  vertical-align:middle;
+  margin-right:7px;
+}
 .whatsapp-btn:hover { background: #128C7E; }
 
 @media (max-width:1024px){
   .contact-details {
     text-align: center;
-      padding: 0 5px;
+    padding: 0 5px;
   }
   .contact-grid { 
     flex-direction: column; 
@@ -789,6 +820,9 @@ nav ul li a:hover {
   .contact-social {
     justify-content: center;
   }
+  .whatsapp-btn img {
+    height: 20px;
+  }
 }
   
 /* Footer */
@@ -809,6 +843,4 @@ footer {
     opacity: 1;
     transform: translateY(0);
   }
-
 }
-
