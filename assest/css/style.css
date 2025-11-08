@@ -99,7 +99,7 @@ nav ul li a:hover {
 /* Hero section */
 .hero {
   position: relative;
-  background: url('/assest/images/hero_bg.jpg');
+  background: url('../images/hero_bg.jpg');
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1029,4 +1029,5 @@ footer {
     opacity: 1;
     transform: translateY(0);
   }
+
 }
