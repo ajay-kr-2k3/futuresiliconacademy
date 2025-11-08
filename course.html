@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Offered - FSA</title>
+  <link rel="stylesheet" href="assest/css/course.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="assest/images/logo.png" alt="Logo">
+    </div>
+    <nav id="nav-links">
+      <ul>
+        <li><a href="index.html"><b>Home</b></a></li>
+        <li><a href="about.html"><b>About</b></a></li>
+        <li><a href="course.html"><b>Courses</b></a></li>
+        <li><a href="gallery.html"><b>Gallery</b></a></li>
+        <li><a href="contact.html"><b>Contact</b></a></li>
+      </ul>
+    </nav>
+    <div class="menu-icon" id="menu-icon">
+      &#9776
+    </div>
+  </header>
+
+  <div class="about-hero">
+    <div class="about-hero-content"><h1>Courses Offered</h1></div>
+  </div>
+
+  <section class="course-area">
+    <div class="courses-btns">
+
+      <div class="course-block">
+        <button class="tab-btn" onclick="toggleCourse(this, 'pd')">VLSI - Physical Design</button>
+        <div id="pd" class="course-detail">
+          <h2>Physical Design (PD)</h2>
+          <strong><p>Master industry-level Physical Design skills — from RTL to GDSII — through practical, hands-on experience with live projects and expert guidance.</p></strong> <br>
+
+          <h3>🎓  Overview</h3>
+          <p>This course is designed to give you end-to-end exposure to the Physical Design flow used in the semiconductor industry. You’ll learn by executing real-world projects using industry-standard EDA tools, covering all major stages from Floor planning to Signoff closure.</p> <br>
+
+          <h3>✅ Eligibility</h3>
+          <p>
+             B.Tech/Diploma students in EEE, ECE, or EIE (pursuing or completed). <br>
+             M.E/M.Tech/M.S students in VLSI, Embedded Systems, or related fields. <br>
+             Working professionals seeking to upskill in VLSI design. <br>
+             Anyone passionate and curious about chip design. <br><br>
+          </p>
+
+          <h3>💻 Mode of Study</h3>
+          <p>
+             Online Mode – Learn from anywhere with live interactive sessions. <br>
+             Offline Mode – Coming Soon. <br><br>
+          </p>
+
+          <h3>🎯 Learning Outcomes</h3>
+          <p>By the ends of this course, you will: </p>
+          <p>
+             Gain deep practical knowledge in Physical Design concepts and EDA tools. <br>
+             Learn how to implement PnR. floor planning, power planning, placement, clock tree synthesis & routing. <br>
+             Execute industry-grade RTL-to-GDSII projects. <br>
+             Develop the expertise required for VLSI job interviews and professional roles. <br><br>
+          </p>
+
+          <h3>🔑 Key Course Features</h3>
+          <p>
+             Job assistance and tool support. <br>
+             Hands-on industry live projects guided by trainers with 8+ years of experience. <br>
+             Comprehensive course material, handouts, quizzes, and assignments. <br>
+             Updated content based on latest industry practices and interview trends. <br><br>
+          </p>
+
+          <h3>🕒 Course Details</h3>
+          <p>
+             Duration: 6 - 8 Months. <br>
+             Skill Level: Intermediate. <br>
+             Language: English/Hindi. <br>
+             Assessments: Included. <br><br>
+          </p>
+
+          <h3>📖 Foundations</h3>
+          <p>
+             Basics of MOSFET, BJT & Diode. <br>
+             Digital Electronics. <br>
+             Combinational & Sequential Circuits. <br>
+             CMOS. <br><br>
+          </p>
+
+          <h3>⚙️ Core Physical Design Topics</h3>
+          <p>
+             RTL to Synthesis. <br>
+             SDC & Library Details. <br>
+             Floor Planning & Power Planning. <br>
+             Placement & Routing Concepts. <br>
+             Design Optimization Techniques. <br>
+             Timing Closure and ECO Fixes. <br><br>
+          </p>
+
+          <h3>Advanced Design Concepts</h3>
+          <p>
+             Clock Tree Synthesis (CTS) & Clock Latency Calculations. <br>
+             Buffer Tree Synthesis. <br>
+             Latch-up and Antenna Effects. <br>
+             Fence, Region, Padding, Blockages, Bump, Don’t Touch, Filter Gap, DRV Optimization. <br><br>
+          </p>
+
+          <h3>⚡ Extra (Advanced Topics)</h3>
+          <p>
+             Physical Verification (ERC, LVS, & DRC Details and Fixes), <br>
+             Cross Talk, <br>
+             EMIR Analysis, <br>
+             Static & Dynamic IR Drop Analysis, <br>
+             PG EM, Signal EM, and Inrush Analysis, <br>
+             TCL Fundamentals, TCL Programming. <br><br>
+          </p>
+
+          <h3>Outcome:</h3>
+          <p>Become ready for Physical Design Engineer roles in semiconductor companies.</p>
+        </div>
+      </div>
+
+      <div class="course-block">
+        <button class="tab-btn" onclick="toggleCourse(this, 'sta')">VLSI - Static Timing Analysis</button>
+        <div id="sta" class="course-detail">
+          <h2>Static Timing Analysis (STA)</h2>
+          <p>
+            Think of a relay race—each runner must pass the baton at the right time. If someone is too slow or too early, the entire team fails. <br>
+            In chip design, STA (Static Timing Analysis) acts like the timing referee. It ensures every signal (data) moves correctly from one flip-flop to the next: <br>
+             Not too late → Avoid Setup Violation <br>
+             Not too early → Avoid Hold Violation <br> <br>
+          </p>
+
+          <h3>Why Do We Need STA?</h3>
+          <p>
+            ✅ Ensures the chip works correctly at its target frequency. <br> 
+            ✅ Detects timing problems without slow gate-level simulations. <br> 
+            ✅ Helps improve logic placement for better performance. <br> 
+            ✅ Prevents expensive chip re-spins after fabrication. <br> <br>
+          </p>
+          <p>
+            *STA ensures that your chip behaves reliably in real hardware, chip doesn't fail when power is ON. <br>
+            For every VLSI Engineer: <br>
+            “Understanding STA is not optional…<strong>It's the heart of making high-performance and reliable chips.”</strong> <br><br>
+          </p>
+
+          <h3>✅ Eligibility</h3>
+          <p>
+             B. Tech students in EEE, ECE, or EIE (pursuing or completed). <br>
+             M.E/M.Tech students in VLSI, Embedded Systems, or related fields. <br>
+             Working professionals seeking to upskill in VLSI design. <br>
+             Anyone passionate and curious about chip design. <br><br>
+          </p>
+
+          <h3>💻 Mode of Study [e-Learning]</h3>
+          <p> Online Mode Learn from anywhere with live in interactive sessions. <br><br> </p>
+
+          <h3>🕒 Course Details</h3>
+          <p>
+             Duration: 6-8 Months. <br>
+             Skill Level: Intermediate. <br>
+             Language: English/Hindi. <br>
+             Assessments: Included. <br><br>
+          </p>
+
+          <h3>Outcome:</h3>
+          <p>Gain expertise to handle timing signoff and timing closure in live chip design projects.</p>
+        </div>
+      </div>
+
+      <div class="course-block">
+        <button class="tab-btn" onclick="toggleCourse(this, 'intern')">VLSI - Short Term Internship</button>
+        <div id="intern" class="course-detail">
+          <h2>Short Term Internship</h2>
+          <p>
+            This internship is designed to give students industry-ready exposure to the VLSI Physical Design Flow. <br>
+            By the end of the program, students will understand how a real chip is designed, optimized, and prepared for fabrication. <br>
+          </p> <br>
+          <p>
+            <strong>Duration:</strong> 4 Weeks (Summer / Winter Batch) <br>
+            <strong>Domain:</strong> Physical Design (RTL to GDS-II) <br>
+            <strong>Mode:</strong> Online / Hybrid/Weekend <br>
+            <strong>Eligibility:</strong> B.Tech / M.Tech (ECE, EE, EEE, CSE-VLSI) <br>
+            <strong>Tools Exposure:</strong> Cadence / Synopsys <br><br>
+          </p>
+
+          <h3>📜 Certification</h3>
+          <p>Every participant will receive:</p>
+          <strong>
+            <p>
+               Internship Completion Certificate. <br> 
+               Project Report Certificate. <br>
+               Resume Building for VLSI Roles. <br>
+               Company Interview Question Practice. <br>
+               PD & STA Technical Mock Interviews. <br>
+            </p>
+          </strong>
+        </div>
+      </div>
+
+      <div class="course-block">
+        <button class="tab-btn" onclick="toggleCourse(this, 'custom')">VLSI - EMIR/PDN</button>
+        <div id="custom" class="course-detail">
+          <h2>EMIR / PDN</h2>
+          <p>
+             EMIR analysis = Electromigration + IR Drop analysis → Used to ensure power integrity and long-term chip reliability. <br>
+             The Power Delivery Network in a chip is the complete wiring system that delivers power (VDD) and ground (VSS) to every cell, macro, and block in the design. <br><br>
+            It ensures that: <br>
+             Each transistor receives correct supply voltage <br>
+             Power delivery is stable across chip <br>
+             Variations in power do not disturb timing or logic state <br>
+          </p>
+          <br>
+          <h2>Details: Coming Soon........</h2>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="contact-grid">
+
+      <div class="contact-left">
+        <img src="assest/images/logo.png" alt="Future Silicon Academy Logo" class="contact-logo">
+        <div class="contact-details">
+          <strong>Future Silicon Academy</strong><br>
+          Address: Bengaluru, India - 560067<br>
+          <span>Phone:</span> <a href="tel:+918073941615">+91 8073941615</a> / <a href="tel:+919798092674">+91-9798092674</a> / <br>  <a href="tel:+918541045661">+91-8541045661</a><br>
+          <span>Email:</span> <a href="mailto:info@futuresiliconacademy.com">info@futuresiliconacademy.com</a><br>
+          <span>Website:</span> <a href="https://www.futuresiliconacademy.com">www.futuresiliconacademy.com</a>
+          
+        </div>
+      </div>
+  
+      <div class="contact-middle">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+  
+      <div class="contact-right">
+        <div class="certified-logo">
+          <img src="assest/images/iso.png" alt="ISO Logo">
+          <img src="assest/images/msme.jpg" alt="MSME Logo">
+        </div>
+        <div class="contact-social">
+          <a href="https://wa.me/918541045661" target="_blank" aria-label="WhatsApp" class="whatsapp"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/whatsapp.svg" alt="Whatsapp"></a>
+          <!-- <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook" class="facebook"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg" alt="Facebook"></a> -->
+          <a href="https://www.linkedin.com/company/future-silicon-academy/" target="_blank" aria-label="LinkedIn" class="linkedin"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn"></a>
+          <a href="https://www.instagram.com/futuresiliconacademy" target="_blank" aria-label="Instagram" class="instagram"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram"></a>
+          <a href="https://youtube.com/@futuresiliconacademy" target="_blank" aria-label="YouTube" class="youtube"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/youtube.svg" alt="YouTube"></a>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  
+  <footer>
+    <p>&copy; 2025 Future Silicon Academy. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const menuIcon = document.getElementById('menu-icon');
+    const navLinks = document.getElementById('nav-links');
+
+    menuIcon.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      menuIcon.classList.toggle('active');
+    });
+  </script>
+  <script>
+    function toggleCourse(btn, id) {
+      const currentDetail = document.getElementById(id);
+      const isActive = currentDetail.classList.contains("active");
+    
+      // Sab button aur content reset karo
+      document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+      document.querySelectorAll(".course-detail").forEach(detail => detail.classList.remove("active"));
+    
+      // Agar same button dobara click hua toh kuch mat karo (sab close rehne do)
+      if (!isActive) {
+        btn.classList.add("active");
+        currentDetail.classList.add("active");
+      }
+    }
+    </script>
+</body>
+</html>
