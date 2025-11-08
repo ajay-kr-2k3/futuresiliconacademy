@@ -99,7 +99,7 @@ nav ul li a:hover {
 /* Hero section */
 .hero {
   position: relative;
-  background: url('../images/hero_bg.jpg');
+  background: url('../images/hero_bg.jpg') no-repeat center center/cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1031,3 +1031,4 @@ footer {
   }
 
 }
+
