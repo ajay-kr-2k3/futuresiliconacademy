@@ -261,5 +261,57 @@
       menuIcon.classList.toggle('active');
     });
   </script>
+
+  <script>
+    // Open popup when Enroll Now is clicked
+    document.querySelector('.btn-primary, .enroll-btn')?.addEventListener('click', function(event) {
+      event.preventDefault();
+      document.getElementById('enrollPopup').style.display = 'flex';
+    });
+  
+    // Close popup
+    function closePopup() {
+      document.getElementById('enrollPopup').style.display = 'none';
+    }
+  
+    // Optional: Close popup when clicking outside
+    window.onclick = function(e) {
+      const popup = document.getElementById('enrollPopup');
+      if (e.target === popup) {
+        popup.style.display = 'none';
+      }
+    }
+  </script>
+
+
+  <!-- ===== ENROLL POPUP FORM ===== -->
+  <div id="enrollPopup" class="popup-overlay">
+    <div class="popup-content">
+      <span class="close-btn" onclick="closePopup()">&times;</span>
+      <h2>Enroll Now</h2>
+      <form id="enrollForm" action="https://formspree.io/f/xyzlgwkk" method="post">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="course">Select Course</label>
+        <select id="course" name="course" required>
+          <option value="">-- Select --</option>
+          <option value="vlsi">VLSI Physical Design</option>
+          <option value="sta">Static Timing Analysis</option>
+          <option value="internship">Industry Internship</option>
+        </select>
+
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </div>
+  </div>
+  
 </body>
+
 </html>
