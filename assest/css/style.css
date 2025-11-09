@@ -126,6 +126,17 @@ nav ul li a:hover {
   position: relative;
 }
 
+.marquee {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  font-size: 24px;
+  font-weight: bold;
+  color: #eeff00;
+  text-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
 .hero-content .company h1 {
   background: linear-gradient(135deg, #fff 20%, #df295e, #4054b2 80%);
   -webkit-background-clip: text;
@@ -311,18 +322,6 @@ nav ul li a:hover {
   opacity: 0.3;
 }
 
-.marquee {
-  position: absolute;
-  top: 30%;
-  width: 100%;
-  z-index: 5; /* above waves */
-  font-size: 24px;
-  font-weight: bold;
-  margin-top: 90px;
-  color: #ffffff;
-  text-shadow: 0 0 10px rgba(0,0,0,0.3);
-}
-
 /* Responsive adjustments */
 @media (max-width: 1024px) {
   .wave-container {
@@ -370,6 +369,9 @@ nav ul li a:hover {
     position: relative;
     min-width: 0;
     box-sizing: border-box;
+  }
+  .marquee {
+    font-size: 17px;
   }
   .hero-content .company h1 {
     font-size: 34px;
@@ -1105,6 +1107,7 @@ footer {
   from { transform: scale(0.9); opacity: 0; }
   to { transform: scale(1); opacity: 1; }
 }
+
 
 
 
