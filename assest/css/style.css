@@ -16,6 +16,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 8px 0;
+    position: relative;
+    z-index: 100;
 }
   
 .logo img {
@@ -115,7 +117,8 @@ nav ul li a:hover {
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.7);
-  z-index: 1;
+  z-index: 0;
+  top: 0;
 }
 
 .hero-content {
@@ -1107,6 +1110,7 @@ footer {
   from { transform: scale(0.9); opacity: 0; }
   to { transform: scale(1); opacity: 1; }
 }
+
 
 
 
