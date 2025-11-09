@@ -175,7 +175,7 @@ nav ul li a:hover {
   font-size: 18px;
   line-height: 1.6;
   text-align: center;
-  color: #6cb5ff;
+  color: #fff;
   margin-bottom: 20px;
   overflow: visible;
 }
@@ -1110,6 +1110,7 @@ footer {
   from { transform: scale(0.9); opacity: 0; }
   to { transform: scale(1); opacity: 1; }
 }
+
 
 
 
