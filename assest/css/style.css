@@ -142,7 +142,7 @@ nav ul li a:hover {
   font-weight: 700;
   color: #fff;
   font-size: 1.6rem;
-  font-family: cursive;
+  font-family: "Viner Hand ITC", cursive;
   margin-top: -15px;
   margin-bottom: 20px;
 }
@@ -436,7 +436,7 @@ nav ul li a:hover {
     align-items: center;
     gap: 9px;
     font-size: 0.97rem;
-    color: #333;
+    color: #fff;
     background: none;
     padding: 0;
     border-radius: 0;
@@ -1105,5 +1105,6 @@ footer {
   from { transform: scale(0.9); opacity: 0; }
   to { transform: scale(1); opacity: 1; }
 }
+
 
 
